@@ -9,11 +9,26 @@
 
 <body>
 
-    <div class="h-screen w-screen flex items-center justify-center bg-gray-50">
+    <div class="h-screen w-screen flex items-center justify-center">
 
         <div class="relative w-full max-w-lg font-semibold ">
 
-            <form class="bg-transparent p-12 border border-black rounded-lg shadow-lg  relative z-10 ">
+            <!-- Blobs -->
+            <div
+                class="absolute top-0 -left-[30px] w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply flilter blur-xl opacity-70 animate-blob">
+            </div>
+            <div
+                class="absolute top-0 left-[100px] w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply flilter blur-xl opacity-70 animate-blob animation-delay-4000">
+            </div>
+            <div
+                class="absolute top-0 -right-[20px] w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply flilter blur-xl opacity-70 animate-blob animation-delay-2000">
+            </div>
+
+
+            <!-- Form -->
+
+            <form
+                class="bg-transparent p-16 border border-black rounded-lg shadow-lg  relative z-10 filter backdrop-blur ">
 
                 <input
                     class="appearance-none border-b border-black  w-full py-2 px-3 mb-6 text-gray-700 leading-tight focus:outline-none focus:shadow-outline bg-transparent placeholder-black font-semibold "
@@ -21,7 +36,7 @@
 
                 <input
                     class="appearance-none border-b border-black  w-full py-2 px-3 mb-6 text-gray-700 leading-tight focus:outline-none focus:shadow-outline bg-transparent placeholder-black font-semibold "
-                    id="password" type="text" placeholder="Password">
+                    id="password" type="password" placeholder="Password">
 
                 <div class="flex items-center justify-between">
                     <button
@@ -34,18 +49,6 @@
                     </a>
                 </div>
             </form>
-
-
-            <div
-                class="absolute top-0 -left-[30px] w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply flilter blur-xl opacity-70 animate-blob">
-            </div>
-            <div
-                class="absolute top-0 left-[100px] w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply flilter blur-xl opacity-70 animate-blob animation-delay-4000">
-            </div>
-            <div
-                class="absolute top-0 -right-[30px] w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply flilter blur-xl opacity-70 animate-blob animation-delay-2000">
-            </div>
-
 
         </div>
 
