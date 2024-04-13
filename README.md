@@ -2,4 +2,4 @@
 - Build using Tailwindcss
 
 ## Preview
-https://youtu.be/St0J8hsoVAk
+![Animated-Blob-Gif](public/Animated-Blob-Video.gif)
