@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="h-screen w-screen flex items-center justify-center bg-gray-50">
+
+        <div class="relative w-full max-w-lg font-semibold ">
+
+            <form class="bg-transparent p-12 border border-black rounded-lg shadow-lg  relative z-10 ">
+
+                <input
+                    class="appearance-none border-b border-black  w-full py-2 px-3 mb-6 text-gray-700 leading-tight focus:outline-none focus:shadow-outline bg-transparent placeholder-black font-semibold "
+                    id="username" type="text" placeholder="Username">
+
+                <input
+                    class="appearance-none border-b border-black  w-full py-2 px-3 mb-6 text-gray-700 leading-tight focus:outline-none focus:shadow-outline bg-transparent placeholder-black font-semibold "
+                    id="password" type="text" placeholder="Password">
+
+                <div class="flex items-center justify-between">
+                    <button
+                        class=" bg-transparent border border-black text-black duration-300 ease-in-out hover:opacity-60 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                        type="button">
+                        Sign In
+                    </button>
+                    <a class="inline-block align-baseline font-bold text-sm text-black hover:text-opacity-60" href="#">
+                        Forgot Password?
+                    </a>
+                </div>
+            </form>
+
+
+            <div
+                class="absolute top-0 -left-[30px] w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply flilter blur-xl opacity-70 animate-blob">
+            </div>
+            <div
+                class="absolute top-0 left-[100px] w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply flilter blur-xl opacity-70 animate-blob animation-delay-4000">
+            </div>
+            <div
+                class="absolute top-0 -right-[30px] w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply flilter blur-xl opacity-70 animate-blob animation-delay-2000">
+            </div>
+
+
+        </div>
+
+    </div>
+
+    </div>
+
+
+</body>
+
+</html>
